@@ -520,7 +520,6 @@ ul.social-icons {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  transform: rotate(18deg);
   left: 12px;
   top: -40px;
   z-index: -1;
