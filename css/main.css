@@ -450,7 +450,7 @@ ul.social-icons {
 }
 
 .adbox {
-  border: 5px; /* Dotted border */
+  border: 5px ##FFFFFF; /* Dotted border */
   width: 80%;
   border-radius: 15px; /* Rounded border */
   margin: 0 auto; /* Center the coupon */
