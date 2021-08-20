@@ -457,16 +457,16 @@ ul.social-icons {
   max-width: 600px;
 }
 
-.container {
+.adcontainer {
   padding: 2px 16px;
   background-color: #f1f1f1;
 }
 
-.promo {
+.adpromo {
   background: #ccc;
   padding: 3px;
 }
 
-.expire {
+.adexpire {
   color: red;
 }
