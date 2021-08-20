@@ -472,14 +472,6 @@ ul.social-icons {
 }
 
 
-/* Google Fonts Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 
 .product-card {
   position: relative;
@@ -620,7 +612,7 @@ ul.social-icons {
   height: 100%;
   width: 300%;
   left: -100%;
-  background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF );
+  /* background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF ); */
   transition: all 0.4s ease;
   border-radius: 25PX;
 }
