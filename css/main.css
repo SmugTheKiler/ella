@@ -472,7 +472,7 @@ ul.social-icons {
 }
 
 
-.container {
+.partnercontainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,7 +480,7 @@ ul.social-icons {
   background: #444;
 }
 
-.card {
+.partnercard {
   position: relative;
   background: #333;
   width: 400px;
