@@ -449,8 +449,8 @@ ul.social-icons {
   border-radius: 4px;
 }
 
-.coupon {
-  border: 5px dotted #bbb; /* Dotted border */
+.adbox {
+  border: 5px; /* Dotted border */
   width: 80%;
   border-radius: 15px; /* Rounded border */
   margin: 0 auto; /* Center the coupon */
