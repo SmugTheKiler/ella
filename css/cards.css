@@ -1,11 +1,4 @@
 body {
-  font-family: "Poppins", sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  background-color: #131b21;
-}
-body {
   background-color: #100e17;
   font-family: 'Open Sans', sans-serif;
 }
