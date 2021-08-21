@@ -1,9 +1,4 @@
-body {
-  background-color: #100e17;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container {
+.subcontainer {
   position: absolute;
   height: 300px;
   width: 600px;
@@ -12,7 +7,7 @@ body {
   display: flex;
 }
 
-.card {
+.subcard {
   display: flex;
   height: 280px;
   width: 200px;
@@ -25,22 +20,22 @@ body {
   left: 0px;
 }
 
-.card:not(:first-child) {
+.subcard:not(:first-child) {
     margin-left: -50px;
 }
 
-.card:hover {
+.subcard:hover {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
 }
 
-.card:hover ~ .card {
+.subcard:hover ~ .card {
   position: relative;
   left: 50px;
   transition: 0.4s ease-out;
 }
 
-.title {
+.subtitle {
   color: white;
   font-weight: 300;
   position: absolute;
@@ -48,7 +43,7 @@ body {
   top: 15px;
 }
 
-.bar {
+.subbar {
   position: absolute;
   top: 100px;
   left: 20px;
@@ -56,13 +51,13 @@ body {
   width: 150px;
 }
 
-.emptybar {
+.subemptybar {
   background-color: #2e3033;
   width: 100%;
   height: 100%;
 }
 
-.filledbar {
+.subfilledbar {
   position: absolute;
   top: 0px;
   z-index: 3;
@@ -73,18 +68,18 @@ body {
   transition: 0.6s ease-out;
 }
 
-.card:hover .filledbar {
+.subcard:hover .subfilledbar {
   width: 120px;
   transition: 0.4s ease-out;
 }
 
-.circle {
+.subcircle {
   position: absolute;
   top: 150px;
   left: calc(50% - 60px);
 }
 
-.stroke {
+.substroke {
   stroke: white;
   stroke-dasharray: 360;
   stroke-dashoffset: 360;
@@ -96,7 +91,7 @@ svg {
   stroke-width: 2px;
 }
 
-.card:hover .stroke {
+.subcard:hover .stroke {
   stroke-dashoffset: 100;
   transition: 0.6s ease-out;
 }
