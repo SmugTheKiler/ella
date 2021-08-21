@@ -86,7 +86,7 @@
   transition: 0.6s ease-out;
 }
 
-svg {
+subsvg {
   fill: #17141d;
   stroke-width: 2px;
 }
