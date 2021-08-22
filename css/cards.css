@@ -2,7 +2,7 @@
   position: absolute;
   height: 300px;
   width: 600px;
-  top: 60px;
+  top: 200px;
   left: calc(50% - 300px);
   display: flex;
 }
