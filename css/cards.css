@@ -1,99 +1,66 @@
-.subcontainer {
-  position: absolute;
-  height: 300px;
-  width: 600px;
-  top: 130;
-  left: calc(50% - 300px);
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-
-.subcard {
-  display: flex;
-  height: 280px;
-  width: 200px;
-  background-color: #17141d;
+.container {
+  position:absolute;
+  width:100%;
+  height:100vh;
+  background: #2c302d;
+}
+.card {
+  width: 60%;
+  height: 80%;
+  max-height: 300px;
+  padding: auto;
+  text-align: center;
+  background: #242625;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
-  margin-left: -50px;
-  transition: 0.4s ease-out;
-  position: relative;
-  left: 70px;
-}
-
-.subcard:not(:first-child) {
-    margin-left: -50px;
-}
-
-.subcard:hover {
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
-}
-
-.subcard:hover ~ .card {
-  position: relative;
-  left: 50px;
-  transition: 0.4s ease-out;
-}
-
-.subtitle {
-  color: white;
-  font-weight: 300;
-  position: absolute;
-  left: 20px;
-  top: 15px;
-}
-
-.subbar {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  height: 5px;
-  width: 150px;
-}
-
-.subemptybar {
-  background-color: #2e3033;
-  width: 100%;
-  height: 100%;
-}
-
-.subfilledbar {
-  position: absolute;
-  top: 0px;
-  z-index: 3;
-  width: 0px;
-  height: 100%;
-  background: rgb(0,154,217);
-  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
-  transition: 0.6s ease-out;
-}
-
-.subcard:hover .subfilledbar {
-  width: 120px;
-  transition: 0.4s ease-out;
-}
-
-.subcircle {
-  position: absolute;
-  top: 150px;
-  left: calc(50% - 60px);
-}
-
-.substroke {
-  stroke: white;
-  stroke-dasharray: 360;
-  stroke-dashoffset: 360;
-  transition: 0.6s ease-out;
-}
-
-subsvg {
-  fill: #17141d;
-  stroke-width: 2px;
-}
-
-.subcard:hover .stroke {
-  stroke-dashoffset: 100;
-  transition: 0.6s ease-out;
+  box-shadow: 25px 25px 50px #1b1c1b, -25px -25px 50px #2d302f;
+  &__container {
+    display: grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    color: white;
+  }
+  &__content {
+    width: 90%;
+    height: 95%;
+    background: #191a19;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+box-shadow:  16px 16px 44px #0a0a0a, 
+             -16px -16px 44px #282a28;
+    transition: 0.3s all ease-in-out;
+    &:hover{
+      margin-top:-10px;
+    }
+  }
+  &__header {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px auto;
+  }
+  &__button {
+    padding: 10px;
+    border-radius: 50px;
+    background: #1f75c4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin: 50px auto;
+  }
 }
 
 
